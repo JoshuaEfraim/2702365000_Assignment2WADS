@@ -20,9 +20,6 @@
         .brand-image {
             margin-left: 15%;
         }
-        .group {
-            margin-top: 10vh;
-        }
         .groupname {
             display: flex;
             justify-content: center;
@@ -44,8 +41,8 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top border py-3">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg sticky-top border py-3" style="background-color:white;">
+        <div class="container-fluid">
           <h2 class="brand-image">
             Web Sample Page
           </h2>
@@ -66,38 +63,152 @@
       </div>
     </nav>
 
-    <div class="container group">
-        <div class="col-12 groupname">
-            <h3 style="font-weight:600;">JEF and Friends</h3>
-        </div>
-        <div class="row mt-4">  
-            <div class="col-6 member">
-                <h4>Our Members:</h4>
+    <div class="new-color py-5" style="background-color: #eaeef4;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h1 class="Create" style="font-weight:600">JEF and Friends</h1> 
+                </div>
             </div>
-            <div class="col-6">
-                <div class="col-12">
-                    <h4>Joshua Efraim - 2702365000</h4>
-                    <h4>Suwandi The - 2702350775</h4>
-                    <h4>Alif Tanoto - 2702364950</h4>
-                    <h4>Ahmad Zaydan</h4>
+            
+            <div class="row justify-content-center">
+                <div class="row">
+                    <div class="col-5 ">
+                        <img src="tree.svg" height="300">
+                    </div>
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="member mt-5" style="color:rgb(84, 82, 82)">
+                                    <p>Our group is comprised of 4 members which are Joshua Efraim, Ahmad Zaydan, Suwandi The, and Alif Tanoto. The origins
+                                        of our group is unknown and the only thing stopping us is milk and coffee. This paragraph does not make sense because 
+                                        I am hungry.
+        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="member" style="color:rgb(84, 82, 82)">
+                                    <p>
+        
+                                        We like eating at kansup and Suwandi usually buys the most food because he likes chicken and rice. 
+                                        I don't like eating and this group likes to have a meal before, after, and during the study. Thus helping
+                                        in maximizing our absorption of information.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="container projects">
-        <div class="university member">
-            <h3>Previous Projects</h3>
+    
+    <div class="container-fluid text-center mx-auto mt-0 pt-5">
+        <div class="col-12 mb-5">
+          <H1 style="font-weight: 300;">Some Projects</H1>
         </div>
-        <div class="col-12 previous">
-            <ul class="list-group">
-                <li class="list-group-item">University Management System</li>
-                <li class="list-group-item">Inventory Optimization System</li>
-                <li class="list-group-item">Data Science Machine Learning Project</li>
-              </ul>
-        </div>
-    </div>
+          <div class="row justify-content-center mb-4">
+            <div class="col-3 d-flex custom-left-border justify-content-center align-items-center pb-4">
+                <div class="card two" style="width: 28rem; border-radius: 30px;">
+                  <div class="card-body">
+                    <H3 class="title">University Management System</H3>
+                    <p class="card-text">Creating solutions for Universities who are having trouble with their database. We provide
+                        our full effort in creating this, thus we got a good score.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="col-3 d-flex custom-left-border justify-content-center align-items-center pb-4">
+              <div class="card two" style="width: 28rem; border-radius: 30px;">
+                <div class="card-body">
+                  <H3 class="title">Inventory Optimization System</H3>
+                  <p class="card-text">Inventory optimization systems are important to mitigate risks in having stockouts as well
+                    as having too much stocks. By creating this, we hope in 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center pb-4">
+              <div class="card two" style="width: 28rem; border-radius: 30px;">
+                <div class="card-body">
+                  <H3 class="title">Machine Learning Algorithms</H3>
+                  <p class="card-text">We learnt and created a machine learning algorithm on how The Impact of Instructor Behaviour 
+                    and Course Structure on Learning Effectiveness in Higher Education
 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="container">
+                  <div class="row">
+                      <!-- Big Column on the Left -->
+                      <div class="col-lg-6 box mt-5 pt-5">
+                        <img src="rating.svg" width="500">
+                      </div>
+                      <!-- Small Columns on the Right -->
+                      <div class="col-lg-5" style="margin-top: 25vh;">
+                          <div class="row">
+                              <div class="col-md-12 box first  mb-4">
+                                  <h3 class="heading">Python</h3>
+                                  <p style="color:rgb(84, 82, 82)">My python skills are ok but it still needs some refinement. I hope to keep on working
+                                    with python because it is much easier to use and straightforward.
+                                  </p>
+                              </div>
+                              <div class="col-md-12 box mb-4">
+                                  <h3 class="heading">Java</h3>
+                                  <p style="color:rgb(84, 82, 82)">I dislike Java and it is complicated to use. I dont want to use it
+                                    and wish that it would dissappear.
+                                  </p>
+                              </div>
+                              <div class="col-md-12 box mb-4">
+                                  <h3 class="heading">Vue.Js</h3>
+                                  <p style="color:rgb(84, 82, 82)">Its ok</p>
+                              </div>
+                              <div class="col-md-12 box">
+                                  <h3 class="heading">Nest.Js</h3>
+                                  <p style="color:rgb(84, 82, 82)">Its ok</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="new-color py-5" style="background-color: #eaeef4;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8 text-center">
+                        <h1 class="Create" style="font-weight:600">Our Final Project</h1> 
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="member mt-5" style="color:rgb(84, 82, 82)">
+                                        <p>Our group is developing a help desk ticketing system for employees at Siloam Hospital, designed to efficiently manage and track issues. The system will feature priority levels to categorize and address urgent requests promptly. Admins will have access to a user-friendly dashboard, providing them with an overview of open, in-progress, and resolved tickets. The goal is to create a centralized system where all issues are tracked in one accessible dropbox, ensuring that no request is overlooked and that responses are streamlined. This solution will enhance communication, simplify issue resolution, and improve overall operational efficiency within the hospital.
+            
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
